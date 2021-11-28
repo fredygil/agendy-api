@@ -24,6 +24,8 @@ const router = express.Router();
 
 router.get('/listBuckets', async (req, res) => {
   try {
+    console.log("profile storage", storage);
+    console.log("call to storage.getBuckets");
     const [buckets] = await storage.getBuckets();
 
     console.log('Buckets:');
