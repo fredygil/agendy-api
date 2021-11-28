@@ -11,6 +11,7 @@ const storage = new Storage({projectId, credentials});
 
 
 async function listBuckets() {
+  console.log("credentials", credentials);
   try {
     const [buckets] = await storage.getBuckets();
 
@@ -30,4 +31,4 @@ async function makeBucketPublic() {
   console.log(`Bucket ${bucketName} is now publicly readable`);
 }
 
-makeBucketPublic();
+listBuckets();
