@@ -13,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "@google-cloud/storage": "^5.16.0",
     "bcrypt": "^5.0.1",
     "connect-history-api-fallback": "^1.6.0",
@@ -26,11 +30,5 @@
     "nodemailer": "^6.7.0",
     "nodemon": "^2.0.15",
     "underscore": "^1.13.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4"
   }
 }
