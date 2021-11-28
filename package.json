@@ -17,8 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/storage": "^5.16.0",
-    "babel-cli": "^6.26.0",
-    "babel-node": "^0.0.1-security",
     "bcrypt": "^5.0.1",
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",
